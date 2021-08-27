@@ -83,3 +83,17 @@ I modified the traditional Cartpole, Pendulum, and Mountain Car environments pre
   </li>
   
 </ol>
+
+# References
+This project would not have been possible without two github respositories, which provided a backbone for much of the code used here: 
+<ul>
+  <li>
+    <a href="https://github.com/facebookresearch/mbrl-lib/tree/master/mbrl"> MBRL-Lib </a?
+  </li>
+  
+  <li>
+    <a href= "https://github.com/openai/gym"> OpenAI Gym </a>
+  </li>
+  
+</ul>
+  
