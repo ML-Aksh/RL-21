@@ -61,7 +61,17 @@ These trends are perhaps easiest to note in these graphs where in cases where th
 
 
 # Script Summary
+I modified the traditional Cartpole, Pendulum, and Mountain Car environments present in the mbrl and gym libraries. Some of the major changes include custom-engineered reward functions, addition of stochasticity within otherwise deterministic environments, use of random agents for sample collection, and choices for dynamics models.
+
 Summary of scripts contained contained within this folder:
 <ol>
+  <li>
+    <b> Utils_noise.py: </b> Contains functions for the different algorithmic choices (1-4) we consider.
+    <b> Cartpole - Clean.py: </b> General script for launching functions defined in Utils_noise.py
+    <b> cartpole_continuous.py: </b> A continuous analog to the gym cartpole environment with options to toggle noise on/off
+    <b> cartpole_continuous_noiseless.py: </b> Conntious version of gym cartpole environment without any noise.
+    <b> Mountain.py: </b> Script for launching analysis on Mountain-Car environment
+    <b> Pendulum.py: </b> Script for launching analysis on the Pendulum environment
+  </li>
   
 </ol>
