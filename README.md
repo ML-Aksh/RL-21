@@ -37,6 +37,8 @@ In general stochastic planning with a deterministic MLP seems to perform really 
 
 ![Results 1](https://user-images.githubusercontent.com/41270824/131067007-cbb8ee57-e904-4a6f-a076-223425727945.png)
 
+
+
 We can also examine the percentage-wise improvements from the proposed scheme. Each cell represents the percentage by which the proposed method improved performance. The 3 bolded negative numbers in the rightmost column correspond to cases where the proposed algorithm lowered performance. Looking at the table we note:
 <ol>
   <li> 
